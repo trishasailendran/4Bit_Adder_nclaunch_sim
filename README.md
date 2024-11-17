@@ -143,7 +143,6 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![Screenshot (238)](https://github.com/user-attachments/assets/4a548a8c-c2b0-4329-b5bb-a7be7832b2e3)
 
 
 ### Fig 8: Compiled database in worklib
@@ -154,6 +153,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
+![Screenshot (238)](https://github.com/user-attachments/assets/b6a3af5b-2e20-4f22-b9cd-6839086e59bb)
 
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
@@ -173,7 +173,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 ### Fig 9: Elaboration Launch Option
 
-![Screenshot (238)](https://github.com/user-attachments/assets/f77803b5-e9e4-46ac-8608-b843b80d2187)
+![Screenshot (234)](https://github.com/user-attachments/assets/58e7512e-32bd-4ebb-881b-022e2f767b57)
+
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -190,6 +191,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
 
 ### Fig 12: Simulation Waveform Window
+![Screenshot (235)](https://github.com/user-attachments/assets/052fccc9-2624-4222-aa6d-0c832e17ce54)
+
 
 ### Result:
 
